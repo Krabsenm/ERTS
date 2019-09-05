@@ -22,5 +22,4 @@ void ModuleSingle::moduleSingleMethod()
 			<< " time: "
 			<< sc_time_stamp()
 			<< std::endl;
-
 }
