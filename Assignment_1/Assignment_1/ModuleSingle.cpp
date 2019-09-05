@@ -23,7 +23,4 @@ void ModuleSingle::moduleSingleMethod()
 			<< sc_time_stamp()
 			<< std::endl;
 
-
-		// wait for next event
-		next_trigger(event_a);
 }
