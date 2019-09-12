@@ -18,12 +18,12 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment_1\ex_3_2\ModuleDouble.cpp">
+    <ClCompile Include="ModuleDouble.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment_1\ex_3_2\ModuleDouble.h">
+    <ClInclude Include="ModuleDouble.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

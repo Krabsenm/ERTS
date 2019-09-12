@@ -155,11 +155,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment_1\ex_3_2\ModuleDouble.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ModuleDouble.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment_1\ex_3_2\ModuleDouble.h" />
+    <ClInclude Include="ModuleDouble.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
