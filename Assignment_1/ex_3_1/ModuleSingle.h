@@ -11,7 +11,7 @@ SC_MODULE(ModuleSingle) {
 	}
 	void moduleSingleThread(void);
 	void moduleSingleMethod(void);
-
+ 
 	sc_event event_a;
 	sc_uint<4> counter = 0;
 };
