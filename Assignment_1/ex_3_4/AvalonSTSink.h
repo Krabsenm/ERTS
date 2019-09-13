@@ -28,16 +28,8 @@ private:
 public:
 	AvalonSTSink(sc_module_name name, std::string file_name) :
 		sc_module(name),
-		m_file_name(m_file_name) 
+		m_file_name(file_name) 
 	{
-		// Open text file
-		output_file = new ofstream(m_file_name.c_str());
-		if (!output_file)
-		{
-			std::cout << "ERROR: Problem opening " << m_file_name << " for output." << endl;
-			return;
-		}
-
 		SC_THREAD(read);
 	}
 
