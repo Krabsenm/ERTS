@@ -11,8 +11,8 @@ void AvalonSTSource::write()
 			// Output sample data on negative edge of clock
 			while (ready == SC_LOGIC_0) 
 			{
-				valid.write(SC_LOGIC_0);
 				wait(clock.posedge_event());
+				valid.write(SC_LOGIC_0);
 			}
 
 			wait(clock.posedge_event());
