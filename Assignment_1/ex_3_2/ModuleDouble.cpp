@@ -18,6 +18,7 @@ void ModuleDouble::B_Thread(void)
 	{
 		// notify every 2 ms
 		event_B.notify(2, SC_MS);
+		wait(2, SC_MS, event_Back);
 	}
 }
 	
