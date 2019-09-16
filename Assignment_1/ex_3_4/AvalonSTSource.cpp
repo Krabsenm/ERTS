@@ -17,9 +17,10 @@ void AvalonSTSource::write()
 
 			wait(clock.posedge_event());
 			data.write(counter++);
+			valid.write(SC_LOGIC_1);  // Signal valid new data
 			channel.write(0);         // Channel number
 			error.write(0);           // Error
-			valid.write(SC_LOGIC_1);  // Signal valid new data
+			
 		}
 		else wait(clock.posedge_event());
 	}
