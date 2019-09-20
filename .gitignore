@@ -338,7 +338,6 @@ ASALocalRun/
 *.log
 *.debug
 *.str
-*.zip
 *.tmp
 *.rst
 *.os
