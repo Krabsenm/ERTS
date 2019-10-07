@@ -1,0 +1,201 @@
+$date
+     Oct 07, 2019       16:00:50
+$end
+
+$version
+              SystemC 2.3.0-ASI --- Jul  4 2013 11:46:47
+$end
+
+$timescale
+     1 ns
+$end
+
+$scope module SystemC $end
+$var wire    1  aaa  clock       $end
+$var wire    1  aab  reset       $end
+$var wire    4  aac  ctrl [3:0]  $end
+$var wire    4  aad  leds [3:0]  $end
+$var wire    4  aae  switch [3:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaa
+0aab
+b0 aac
+b0 aad
+b0 aae
+$end
+
+#5
+0aaa
+
+#10
+1aaa
+
+#15
+0aaa
+
+#20
+1aaa
+b11 aad
+
+#25
+0aaa
+
+#30
+1aaa
+b100 aad
+
+#35
+0aaa
+
+#40
+1aaa
+b101 aad
+
+#45
+0aaa
+
+#50
+1aaa
+b110 aad
+
+#55
+0aaa
+
+#60
+1aaa
+b111 aad
+
+#65
+0aaa
+
+#70
+1aaa
+b1000 aad
+
+#75
+0aaa
+
+#80
+1aaa
+b1001 aad
+
+#85
+0aaa
+
+#90
+1aaa
+b1010 aad
+
+#95
+0aaa
+
+#100
+1aaa
+b1011 aad
+
+#105
+0aaa
+
+#110
+1aaa
+b1100 aad
+
+#115
+0aaa
+
+#120
+1aaa
+b1101 aad
+
+#125
+0aaa
+
+#130
+1aaa
+b1110 aad
+
+#135
+0aaa
+
+#140
+1aaa
+b1111 aad
+
+#145
+0aaa
+
+#150
+1aaa
+b0 aad
+
+#155
+0aaa
+
+#160
+1aaa
+b1 aad
+
+#165
+0aaa
+
+#170
+1aaa
+b10 aad
+
+#175
+0aaa
+
+#180
+1aaa
+b1111 aac
+b1111 aad
+b1111 aae
+
+#185
+0aaa
+
+#190
+1aaa
+b1 aac
+
+#195
+0aaa
+
+#200
+1aaa
+b1 aad
+
+#205
+0aaa
+
+#210
+1aaa
+
+#215
+0aaa
+
+#220
+1aaa
+
+#225
+0aaa
+
+#230
+1aaa
+
+#235
+0aaa
+
+#240
+1aaa
+
+#245
+0aaa
+
