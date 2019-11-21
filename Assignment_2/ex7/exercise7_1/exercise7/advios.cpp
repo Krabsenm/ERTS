@@ -18,7 +18,9 @@ void advios::pulse()
 
 void advios::led_ctrl()
 {
+	
 	bool lastPulse = secPulse;
+	
 	while (true)
 	{
 		if (!lastPulse && secPulse)
