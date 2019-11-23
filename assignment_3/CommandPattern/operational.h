@@ -1,11 +1,11 @@
 #pragma once
 #include "command.h"
 #include "operationalState.h"
-class Operational
+class operational
 {
 public:
-	Operational();
-	~Operational();
+	operational();
+	~operational();
 
 	void handleCommand(Command* cmd); 
 

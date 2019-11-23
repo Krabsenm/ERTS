@@ -151,7 +151,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="command.cpp" />
     <ClCompile Include="CommandPattern.cpp" />
+    <ClCompile Include="configurationEnded.cpp" />
+    <ClCompile Include="Configure.cpp" />
+    <ClCompile Include="operational.cpp" />
+    <ClCompile Include="operationalState.cpp" />
+    <ClCompile Include="resume.cpp" />
+    <ClCompile Include="start.cpp" />
+    <ClCompile Include="stop.cpp" />
+    <ClCompile Include="suspend.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="command.h" />
+    <ClInclude Include="configurationEnded.h" />
+    <ClInclude Include="Configure.h" />
+    <ClInclude Include="operational.h" />
+    <ClInclude Include="operationalState.h" />
+    <ClInclude Include="resume.h" />
+    <ClInclude Include="start.h" />
+    <ClInclude Include="stop.h" />
+    <ClInclude Include="suspend.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

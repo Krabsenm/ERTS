@@ -1,14 +1,14 @@
 #include "operational.h"
 
-Operational::Operational()
+operational::operational()
 {
 }
 
-Operational::~Operational()
+operational::~operational()
 {
 }
 
-void Operational::handleCommand(Command* cmd)
+void operational::handleCommand(Command* cmd)
 {
 	cmd->Execute(this, _state);
 }

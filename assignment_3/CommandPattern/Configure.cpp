@@ -1,7 +1,7 @@
 #include "Configure.h"
 
 
-void Configure::Execute(Operational* context, OperationalState* state)
+void Configure::Execute(operational* context, OperationalState* state)
 {
 	state->configure(context);
 }
