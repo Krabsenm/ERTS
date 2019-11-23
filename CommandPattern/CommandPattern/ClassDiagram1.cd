@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Client">
+    <Position X="13.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAIACAAAABAAAAAAAAAACAAIAAAAAgAAAQ=</HashCode>
+      <FileName>Client.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_operational" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="command">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="configurationEnded" Collapsed="true">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>configurationEnded.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="configure" Collapsed="true">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>configure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="operational">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAACAAAAIAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>operational.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_state" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="operationalState">
+    <Position X="17.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAIAAAAAABAAAAAAAAAACAAIAAAAAgAAAA=</HashCode>
+      <FileName>operationalState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="resume" Collapsed="true">
+    <Position X="7.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>resume.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="start" Collapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>start.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="stop" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>stop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="suspended" Collapsed="true">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>suspend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
