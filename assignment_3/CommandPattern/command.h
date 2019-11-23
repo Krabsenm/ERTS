@@ -7,7 +7,7 @@ public:
 
 	virtual ~Command();
 
-	virtual void Execute(Operational*, OperationalState*) = 0; 
+	virtual void Execute(operational*, OperationalState*) = 0; 
 
 protected:
 	Command();
