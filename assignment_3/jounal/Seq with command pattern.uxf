@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLSequenceAllInOne</id>
+    <coordinates>
+      <x>45</x>
+      <y>255</y>
+      <w>770</w>
+      <h>445</h>
+    </coordinates>
+    <panel_attributes>title=seq EmbeddedSystemX - SelftestOk()
+obj=Client ~ e
+obj=selfTestOk ~ d CREATED_LATER
+obj=EmbbeddedSystemX~a
+obj=PowerOnSelfTest~b
+obj=Initializing~c CREATED_LATER
+
+e-&gt; d : new selfTestOk
+
+e-&gt; a : handleCommand(*selfTestOk); on=a;
+a -&gt;d : execute(this, state); on=d; 
+d-&gt;b : SelftestOk(EmbeddedSystemX*); on=b
+
+b-&gt;c : Instance()
+
+c -&gt; c+ : _instance = new Initializing()
+on=c
+c.&gt;b : _instance : Initializing*; off=c
+b-&gt;b++; 
+b: ChangeState(EmbeddedSystemX*, Initializing*);
+on=b
+b-&gt;a:ChangeState(EmbeddedSystemState* state); 
+a-&gt;a+ : _state = pState
+on=a
+off=a ; a.&gt;b
+b-&gt;c:Entry(); on=c
+c.&gt;b; off=c,b
+b.&gt;a; off=b
+a-&gt;d : delete ; off=a,d
+destroy=d
+
+ 
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
