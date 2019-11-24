@@ -1,83 +1,135 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="command" Collapsed="true">
-    <Position X="15.75" Y="3.5" Width="1.5" />
+    <Position X="17" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAAAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>command.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Configuration" Collapsed="true">
-    <Position X="3" Y="6.25" Width="1.5" />
+  <Class Name="configurationEnded" Collapsed="true">
+    <Position X="12" Y="6.75" Width="1.75" />
+    <InheritanceLine Type="command" ManuallyRouted="true">
+      <Path>
+        <Point X="17.75" Y="4.062" />
+        <Point X="17.75" Y="5.124" />
+        <Point X="12.875" Y="5.124" />
+        <Point X="12.875" Y="6.75" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAEAAAAAAAIAAAAAAAAAAQAAAAAAAAAwAAAAAAAAAA=</HashCode>
-      <FileName>Configuration.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>configurationEnded.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="EmbeddedSystemState" Collapsed="true">
-    <Position X="8.5" Y="3.5" Width="2" />
+  <Class Name="configure" Collapsed="true">
+    <Position X="15.25" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAQEAAAACAIBAAAAABAAAUBAAAAASAAIAAAAAgAAAA=</HashCode>
-      <FileName>EmbeddedSystemState.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>configure.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="EmbeddedSystemX" Collapsed="true">
-    <Position X="12" Y="3.5" Width="2.25" />
+  <Class Name="Exit" Collapsed="true">
+    <Position X="17.25" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAAEAAAACAIBABAAIBACAQBAIAAAWAAIAAAAAiAAQA=</HashCode>
-      <FileName>EmbeddedSystemX.h</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="_state" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="Failure" Collapsed="true">
-    <Position X="9.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>EAAUAAAAAAAAAAgAAAAAAQQAAAQAAACAYAAAAAAAAAA=</HashCode>
-      <FileName>Failure.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exit.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Initializing" Collapsed="true">
-    <Position X="11.75" Y="4.75" Width="1.5" />
+  <Class Name="initialized" Collapsed="true">
+    <Position X="19.25" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAUEAAAQAAAABAAAAAAAAQAAAAAAAAAQAAAAAAAAAA=</HashCode>
-      <FileName>Initializing.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>initialized.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Operational" Collapsed="true">
-    <Position X="5.75" Y="4.75" Width="1.5" />
+  <Class Name="restart" Collapsed="true">
+    <Position X="21.25" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAEIAAAAAAAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAA=</HashCode>
-      <FileName>Operational.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>restart.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PowerOnSelfTest" Collapsed="true">
-    <Position X="7.75" Y="4.75" Width="1.5" />
+  <Class Name="resume" Collapsed="true">
+    <Position X="13.25" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAUAAAAAAAAIAEAAAAAAAQBAAAAAQAAQAAAAAAAAAA=</HashCode>
-      <FileName>PowerOnSelfTest.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>resume.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Ready" Collapsed="true">
-    <Position X="6.5" Y="6.25" Width="1.5" />
+  <Class Name="selfTestFailed" Collapsed="true">
+    <Position X="16.25" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="command" ManuallyRouted="true">
+      <Path>
+        <Point X="17.75" Y="4.062" />
+        <Point X="17.75" Y="5.109" />
+        <Point X="17" Y="5.109" />
+        <Point X="17" Y="6.75" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAEAAAAACAAAAEAAABAAAQAAAAAAAAAQAAAAAAAAAA=</HashCode>
-      <FileName>Ready.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>selfTestFailed.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="RealTimeLoop" Collapsed="true">
-    <Position X="8.25" Y="6.25" Width="1.5" />
+  <Class Name="selfTestOk" Collapsed="true">
+    <Position X="18.25" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="command" ManuallyRouted="true">
+      <Path>
+        <Point X="17.75" Y="4.062" />
+        <Point X="17.75" Y="5.124" />
+        <Point X="19" Y="5.124" />
+        <Point X="19" Y="6.75" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAEAAAAAAAAAAAAAAAAAASAAAAAACAAYAAAAAAAAAA=</HashCode>
-      <FileName>RealTimeLoop.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>selfTestOk.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Suspended" Collapsed="true">
-    <Position X="4.75" Y="6.25" Width="1.5" />
+  <Class Name="start" Collapsed="true">
+    <Position X="20.25" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="command" ManuallyRouted="true">
+      <Path>
+        <Point X="17.75" Y="4.062" />
+        <Point X="17.75" Y="5.124" />
+        <Point X="21" Y="5.124" />
+        <Point X="21" Y="6.75" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAEAABAAAAAAAAAAAAAAAQAAAAAAAAAYAAAAAgAAAA=</HashCode>
-      <FileName>Suspended.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>start.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="stop" Collapsed="true">
+    <Position X="22.25" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="command" ManuallyRouted="true">
+      <Path>
+        <Point X="17.75" Y="4.062" />
+        <Point X="17.75" Y="5.076" />
+        <Point X="23" Y="5.076" />
+        <Point X="23" Y="6.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>stop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="suspended" Collapsed="true">
+    <Position X="14.25" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="command" ManuallyRouted="true">
+      <Path>
+        <Point X="17.75" Y="4.062" />
+        <Point X="17.75" Y="5.109" />
+        <Point X="15" Y="5.109" />
+        <Point X="15" Y="6.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>suspend.h</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

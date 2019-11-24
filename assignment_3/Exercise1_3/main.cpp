@@ -41,57 +41,46 @@ int main()
 		{
 		case '1':
 			pCmd = new selfTestOk;
-			//system.SelftestOk();
 			break;
 
 		case '2':
 			pCmd = new initialized; 
-			//system.Initialized();
 			break;
 
 		case '3':
 			pCmd = new restart; 
-			//system.Restart();
 			break;
 
 		case '4':
 			pCmd = new configure; 
-			//system.Configure();
 			break;
 
 		case '5':
 			pCmd = new configurationEnded; 
-			//system.ConfigurationEnded();
 			break;
 
 		case '6':
 			pCmd = new Exit;
-			//system.Exit();
 			break;
 
 		case '7':
 			pCmd = new stop; 
-			//system.Stop();
 			break;
 
 		case '8':
 			pCmd = new start; 
-			//system.Start();
 			break;
 
 		case '9':
 			pCmd = new suspended;
-			//system.Suspend();
 			break;
 
 		case 'a':
 			pCmd = new resume;
-			//system.Resume();
 			break;
 
 		case 'b':
 			pCmd = new selfTestFailed;
-			//system.SelftestFailed(rand());
 			break;
 
 		default:
