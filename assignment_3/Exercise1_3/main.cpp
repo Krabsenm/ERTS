@@ -3,6 +3,18 @@
 
 #include <iostream>
 #include "EmbeddedSystemX.h"
+#include "selfTestOk.h"
+#include "selfTestFailed.h"
+#include "command.h"
+#include "start.h"
+#include "restart.h"
+#include "resume.h"
+#include "stop.h"
+#include "exit.h"
+#include "configure.h"
+#include "suspend.h"
+#include "configurationEnded.h"
+#include "initialized.h"
 	
 int main()
 {
@@ -20,6 +32,7 @@ int main()
 	std::cout << "b:  SelftestFailed" << std::endl << std::endl;
 
 	EmbeddedSystemX system;
+	command* pCmd = nullptr; 
 	while (system.isRunning())
 	{
 		char keypress;
@@ -27,52 +40,65 @@ int main()
 		switch (keypress)
 		{
 		case '1':
-			system.SelftestOk();
+			pCmd = new selfTestOk;
+			//system.SelftestOk();
 			break;
 
 		case '2':
-			system.Initialized();
+			pCmd = new initialized; 
+			//system.Initialized();
 			break;
 
 		case '3':
-			system.Restart();
+			pCmd = new restart; 
+			//system.Restart();
 			break;
 
 		case '4':
-			system.Configure();
+			pCmd = new configure; 
+			//system.Configure();
 			break;
 
 		case '5':
-			system.ConfigurationEnded();
+			pCmd = new configurationEnded; 
+			//system.ConfigurationEnded();
 			break;
 
 		case '6':
-			system.Exit();
+			pCmd = new Exit;
+			//system.Exit();
 			break;
 
 		case '7':
-			system.Stop();
+			pCmd = new stop; 
+			//system.Stop();
 			break;
 
 		case '8':
-			system.Start();
+			pCmd = new start; 
+			//system.Start();
 			break;
 
 		case '9':
-			system.Suspend();
+			pCmd = new suspended;
+			//system.Suspend();
 			break;
 
 		case 'a':
-			system.Resume();
+			pCmd = new resume;
+			//system.Resume();
 			break;
 
 		case 'b':
-			system.SelftestFailed(rand());
+			pCmd = new selfTestFailed;
+			//system.SelftestFailed(rand());
 			break;
 
 		default:
 			break;
 		}
+		if (pCmd != nullptr)
+			system.handleCommand(pCmd);
 	}
 }
 

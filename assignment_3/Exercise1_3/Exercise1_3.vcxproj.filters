@@ -48,6 +48,42 @@
     <ClCompile Include="EmbeddedSystemX.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="configurationEnded.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="configure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="resume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="start.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="suspend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="restart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="selfTestFailed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="selfTestOk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="initialized.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Failure.h">
@@ -80,5 +116,44 @@
     <ClInclude Include="EmbeddedSystemX.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="configurationEnded.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="configure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="start.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="suspend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="restart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="selfTestFailed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="selfTestOk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="initialized.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
