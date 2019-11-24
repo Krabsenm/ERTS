@@ -1,10 +1,11 @@
 #include "EmbeddedSystemX.h"
 #include "PowerOnSelfTest.h"
 
-EmbeddedSystemX::EmbeddedSystemX()
+EmbeddedSystemX::EmbeddedSystemX(): Name("systemX")
 {
 	_state = PowerOnSelfTest::Instance();
 	_state->Entry();
+	VersionNo = 1; 
 }
 
 void EmbeddedSystemX::SelftestOk()
@@ -60,6 +61,12 @@ void EmbeddedSystemX::Resume()
 void EmbeddedSystemX::SelftestFailed(int ErrorNo)
 {
 	_state->SelftestFailed(this, ErrorNo);
+}
+
+void EmbeddedSystemX::handleCommand(command* cmd)
+{
+	cmd->Execute(this, _state); 
+	delete cmd; 
 }
 
 void EmbeddedSystemX::ChangeState(EmbeddedSystemState* pState)

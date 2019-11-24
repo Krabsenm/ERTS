@@ -151,29 +151,56 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="command.cpp" />
     <ClCompile Include="Configuration.cpp" />
+    <ClCompile Include="configurationEnded.cpp" />
+    <ClCompile Include="configure.cpp" />
     <ClCompile Include="EmbeddedSystemState.cpp" />
     <ClCompile Include="EmbeddedSystemX.cpp" />
+    <ClCompile Include="exit.cpp" />
     <ClCompile Include="Failure.cpp" />
+    <ClCompile Include="initialized.cpp" />
     <ClCompile Include="Initializing.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Operational.cpp" />
     <ClCompile Include="PowerOnSelfTest.cpp" />
     <ClCompile Include="Ready.cpp" />
     <ClCompile Include="RealTimeLoop.cpp" />
+    <ClCompile Include="restart.cpp" />
+    <ClCompile Include="resume.cpp" />
+    <ClCompile Include="selfTestFailed.cpp" />
+    <ClCompile Include="selfTestOk.cpp" />
+    <ClCompile Include="start.cpp" />
+    <ClCompile Include="stop.cpp" />
+    <ClCompile Include="suspend.cpp" />
     <ClCompile Include="Suspended.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="command.h" />
     <ClInclude Include="Configuration.h" />
+    <ClInclude Include="configurationEnded.h" />
+    <ClInclude Include="configure.h" />
     <ClInclude Include="EmbeddedSystemState.h" />
     <ClInclude Include="EmbeddedSystemX.h" />
+    <ClInclude Include="exit.h" />
     <ClInclude Include="Failure.h" />
+    <ClInclude Include="initialized.h" />
     <ClInclude Include="Initializing.h" />
     <ClInclude Include="Operational.h" />
     <ClInclude Include="PowerOnSelfTest.h" />
     <ClInclude Include="Ready.h" />
     <ClInclude Include="RealTimeLoop.h" />
+    <ClInclude Include="restart.h" />
+    <ClInclude Include="resume.h" />
+    <ClInclude Include="selfTestFailed.h" />
+    <ClInclude Include="selfTestOk.h" />
+    <ClInclude Include="start.h" />
+    <ClInclude Include="stop.h" />
+    <ClInclude Include="suspend.h" />
     <ClInclude Include="Suspended.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

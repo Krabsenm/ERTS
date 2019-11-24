@@ -1,11 +1,13 @@
 #pragma once
 #include "EmbeddedSystemState.h"
+#include "command.h"
+class command; 
 
 class EmbeddedSystemX
 {
 private:
 	int VersionNo;
-	char* Name;
+	const char* Name;
 	bool _running = true;
 
 public:
@@ -25,6 +27,8 @@ public:
 	void Suspend();
 	void Resume();
 	void SelftestFailed(int ErrorNo);
+
+	void handleCommand(command* cmd); 
 
 private:
 	friend class EmbeddedSystemState;
