@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>10</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>140</y>
-      <w>110</w>
-      <h>60</h>
+      <x>336</x>
+      <y>184</y>
+      <w>88</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>valign=center
 Snippet</panel_attributes>
@@ -16,22 +16,22 @@ Snippet</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>50</x>
-      <y>150</y>
-      <w>220</w>
-      <h>40</h>
+      <x>224</x>
+      <y>192</y>
+      <w>128</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 : Greyscale Image</panel_attributes>
-    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>140.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
-      <y>110</y>
-      <w>110</w>
-      <h>80</h>
+      <x>416</x>
+      <y>160</y>
+      <w>88</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=: Snip8</panel_attributes>
@@ -40,10 +40,10 @@ r1=: Snip8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
-      <y>100</y>
-      <w>130</w>
-      <h>60</h>
+      <x>488</x>
+      <y>152</y>
+      <w>104</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>valign=center
 Differentiator
@@ -53,10 +53,10 @@ Differentiator
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>160</y>
-      <w>90</w>
-      <h>80</h>
+      <x>432</x>
+      <y>200</y>
+      <w>72</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=: Snip8</panel_attributes>
@@ -65,10 +65,10 @@ m1=: Snip8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>760</x>
-      <y>100</y>
-      <w>100</w>
-      <h>50</h>
+      <x>744</x>
+      <y>152</y>
+      <w>80</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>valign=center
 Elementwise
@@ -78,10 +78,10 @@ Square</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
-      <y>110</y>
-      <w>220</w>
-      <h>40</h>
+      <x>584</x>
+      <y>160</y>
+      <w>176</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=Ix : Snip8</panel_attributes>
@@ -90,10 +90,10 @@ r1=Ix : Snip8</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>850</x>
-      <y>120</y>
-      <w>110</w>
-      <h>200</h>
+      <x>816</x>
+      <y>168</y>
+      <w>88</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=Ixx :\nSnip16</panel_attributes>
@@ -102,10 +102,10 @@ r1=Ixx :\nSnip16</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
-      <y>180</y>
-      <w>130</w>
-      <h>60</h>
+      <x>488</x>
+      <y>216</y>
+      <w>104</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>valign=center
 Differentiator
@@ -115,10 +115,10 @@ Differentiator
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
-      <y>170</y>
-      <w>220</w>
-      <h>40</h>
+      <x>584</x>
+      <y>208</y>
+      <w>176</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=Iy : Snip8</panel_attributes>
@@ -127,10 +127,10 @@ r1=Iy : Snip8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>760</x>
-      <y>160</y>
-      <w>100</w>
-      <h>50</h>
+      <x>744</x>
+      <y>200</y>
+      <w>80</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>valign=center
 Elementwise
@@ -140,10 +140,10 @@ Square</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>740</x>
-      <y>300</y>
-      <w>180</w>
-      <h>80</h>
+      <x>728</x>
+      <y>312</y>
+      <w>144</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>valign=center
 Gaussian Smooth</panel_attributes>
@@ -152,10 +152,10 @@ Gaussian Smooth</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>820</x>
-      <y>200</y>
-      <w>70</w>
-      <h>120</h>
+      <x>792</x>
+      <y>232</y>
+      <w>56</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=Iyy :\nSnip16</panel_attributes>
@@ -164,10 +164,10 @@ r1=Iyy :\nSnip16</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>290</y>
-      <w>100</w>
-      <h>100</h>
+      <x>560</x>
+      <y>304</y>
+      <w>80</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>valign=center
 Window Sum
@@ -177,10 +177,10 @@ Window Sum
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>290</y>
-      <w>140</w>
-      <h>40</h>
+      <x>632</x>
+      <y>304</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=Ixx : Snip16</panel_attributes>
@@ -189,10 +189,10 @@ r1=Ixx : Snip16</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>350</y>
-      <w>150</w>
-      <h>40</h>
+      <x>456</x>
+      <y>352</y>
+      <w>120</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r2=Axy : Snip20</panel_attributes>
@@ -201,10 +201,10 @@ r2=Axy : Snip20</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>320</y>
-      <w>150</w>
-      <h>40</h>
+      <x>456</x>
+      <y>328</y>
+      <w>120</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r2=Ayy : Snip20</panel_attributes>
@@ -213,10 +213,10 @@ r2=Ayy : Snip20</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>290</y>
-      <w>150</w>
-      <h>40</h>
+      <x>456</x>
+      <y>304</y>
+      <w>120</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r2=Axx : Snip20</panel_attributes>
@@ -225,10 +225,10 @@ r2=Axx : Snip20</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>310</x>
-      <y>290</y>
-      <w>100</w>
-      <h>100</h>
+      <x>384</x>
+      <y>304</y>
+      <w>80</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>valign=center
 Local Max
@@ -238,10 +238,10 @@ Calculator</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>190</x>
-      <y>420</y>
-      <w>120</w>
-      <h>60</h>
+      <x>288</x>
+      <y>400</y>
+      <w>96</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>valign=center
 Point of Interest
@@ -251,22 +251,22 @@ Threshold</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>210</x>
-      <y>320</y>
-      <w>120</w>
-      <h>120</h>
+      <x>304</x>
+      <y>328</y>
+      <w>96</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r2=POI : Coord</panel_attributes>
-    <additional_attributes>40.0;100.0;40.0;20.0;100.0;20.0</additional_attributes>
+    <additional_attributes>40.0;90.0;40.0;20.0;100.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>420</x>
-      <y>420</y>
-      <w>120</w>
-      <h>60</h>
+      <x>472</x>
+      <y>400</y>
+      <w>96</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>valign=center
 Buffer</panel_attributes>
@@ -276,20 +276,20 @@ Buffer</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>120</x>
-      <y>160</y>
-      <w>30</w>
-      <h>110</h>
+      <y>200</y>
+      <w>24</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>610</x>
-      <y>470</y>
-      <w>120</w>
-      <h>50</h>
+      <x>624</x>
+      <y>488</y>
+      <w>96</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>valign=center
 POI Marker</panel_attributes>
@@ -298,10 +298,10 @@ POI Marker</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>100</x>
-      <y>250</y>
-      <w>60</w>
-      <h>210</h>
+      <x>104</x>
+      <y>296</y>
+      <w>48</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>valign=center
 Delay
@@ -312,21 +312,21 @@ Line</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>120</x>
-      <y>450</y>
-      <w>510</w>
-      <h>80</h>
+      <y>456</y>
+      <w>520</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 : Greyscale Image</panel_attributes>
-    <additional_attributes>490.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>630.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>430</y>
-      <w>140</w>
-      <h>40</h>
+      <x>376</x>
+      <y>408</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=POI : Coord</panel_attributes>
@@ -335,22 +335,22 @@ r1=POI : Coord</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>430</y>
-      <w>130</w>
-      <h>60</h>
+      <x>560</x>
+      <y>408</y>
+      <w>104</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r2=POI : Coord</panel_attributes>
-    <additional_attributes>110.0;40.0;110.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>110.0;100.0;110.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
-      <y>480</y>
-      <w>290</w>
-      <h>40</h>
+      <x>712</x>
+      <y>496</y>
+      <w>232</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 : Greyscale Image</panel_attributes>
@@ -359,10 +359,10 @@ r2=POI : Coord</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>220</y>
-      <w>110</w>
-      <h>50</h>
+      <x>632</x>
+      <y>248</y>
+      <w>88</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>valign=center
 Hadamard
@@ -372,10 +372,10 @@ Product</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
-      <y>240</y>
-      <w>100</w>
-      <h>80</h>
+      <x>712</x>
+      <y>264</y>
+      <w>80</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=Ixy :\nSnip16</panel_attributes>
@@ -384,10 +384,10 @@ r1=Ixy :\nSnip16</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>120</y>
-      <w>40</w>
-      <h>120</h>
+      <x>632</x>
+      <y>168</y>
+      <w>32</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>20.0;100.0;20.0;80.0;10.0;70.0;20.0;60.0;20.0;10.0</additional_attributes>
@@ -395,10 +395,10 @@ r1=Ixy :\nSnip16</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>690</x>
-      <y>180</y>
-      <w>30</w>
-      <h>60</h>
+      <x>688</x>
+      <y>216</y>
+      <w>24</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -406,10 +406,10 @@ r1=Ixy :\nSnip16</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>320</y>
-      <w>140</w>
-      <h>40</h>
+      <x>632</x>
+      <y>328</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=Iyy : Snip16</panel_attributes>
@@ -418,10 +418,10 @@ r1=Iyy : Snip16</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>350</y>
-      <w>140</w>
-      <h>40</h>
+      <x>632</x>
+      <y>352</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=Ixy : Snip16</panel_attributes>
@@ -430,10 +430,10 @@ r1=Ixy : Snip16</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>80</x>
-      <y>80</y>
-      <w>880</w>
-      <h>470</h>
+      <x>272</x>
+      <y>136</y>
+      <w>632</w>
+      <h>328</h>
     </coordinates>
     <panel_attributes>Harris Corner Pipeline</panel_attributes>
     <additional_attributes/>
@@ -441,10 +441,10 @@ r1=Ixy : Snip16</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>800</x>
-      <y>400</y>
-      <w>150</w>
-      <h>40</h>
+      <x>776</x>
+      <y>392</y>
+      <w>120</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>Sync. the three lines
 </panel_attributes>
@@ -453,10 +453,10 @@ r1=Ixy : Snip16</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>830</x>
-      <y>370</y>
-      <w>60</w>
-      <h>50</h>
+      <x>800</x>
+      <y>368</y>
+      <w>48</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;40.0;30.0</additional_attributes>
@@ -464,10 +464,10 @@ r1=Ixy : Snip16</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>170</x>
-      <y>230</y>
-      <w>100</w>
-      <h>50</h>
+      <x>176</x>
+      <y>280</y>
+      <w>80</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>Same length
 as the pipeline</panel_attributes>
@@ -476,12 +476,47 @@ as the pipeline</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
-      <y>270</y>
+      <x>144</x>
+      <y>312</y>
       <w>80</w>
-      <h>70</h>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;50.0;60.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>152</x>
+      <y>184</y>
+      <w>80</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>valign=center
+RGB To Grey</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>56</x>
+      <y>192</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+: RGB Image</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>72</x>
+      <y>128</y>
+      <w>840</w>
+      <h>408</h>
+    </coordinates>
+    <panel_attributes>Feature Detection</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
