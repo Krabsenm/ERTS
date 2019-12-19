@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>270</x>
+      <y>20</y>
+      <w>730</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Presentation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>420</x>
+      <y>60</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>User Interface
+--
+Controller
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>270</x>
+      <y>170</y>
+      <w>730</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Application</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>700</x>
+      <y>50</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Video Processor
+--
+Controller
+Edge Detector
+Feature Detector
+Passthrough
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>290</x>
+      <y>230</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Controller</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>420</x>
+      <y>220</y>
+      <w>130</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Edge Detector
+--
+RGB to Gray
+Differentiate
+Sum and Divide
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>580</x>
+      <y>200</y>
+      <w>280</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Feature Detector
+--
+RGB to Gray
+Snippet
+Differentiate
+Hadamard Prouct
+Gaussion Smooth
+halign=left
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>880</x>
+      <y>230</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Passthrough</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>270</x>
+      <y>340</y>
+      <w>730</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Mechanism</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>270</x>
+      <y>540</y>
+      <w>730</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Utility</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>280</x>
+      <y>580</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Hadamard Product</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>450</x>
+      <y>580</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Matrix Sum</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>580</x>
+      <y>580</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Determinant</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>710</x>
+      <y>580</y>
+      <w>70</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Trace</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>800</x>
+      <y>580</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Dot product</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>280</x>
+      <y>380</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Hadamard Product
+--
+Hadamard Product
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>930</x>
+      <y>580</y>
+      <w>60</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Sum</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>860</x>
+      <y>380</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>RGB to Gray
+--
+Dot product
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>460</x>
+      <y>380</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Differentiate
+--
+Hadamard Product
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>710</x>
+      <y>380</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Sum and Divide
+--
+Matrix Sum
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>280</x>
+      <y>450</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Gaussian
+Smooth
+--
+Hadamard Product
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>710</x>
+      <y>460</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Local Max
+--
+Determinant
+Trace
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>860</x>
+      <y>460</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Window Sum
+--
+Sum
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>610</x>
+      <y>380</y>
+      <w>80</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Snippet
+--
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>460</x>
+      <y>460</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>POI Threshold
+--
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>610</x>
+      <y>460</y>
+      <w>80</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Buffer
+--
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>220</y>
+      <w>140</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Window Sum
+Local Max
+POI Threshold
+Buffer
+halign=left
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>150</y>
+      <w>90</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+m2=&lt;&lt;access&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>320</y>
+      <w>90</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+m2=&lt;&lt;access&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>520</y>
+      <w>90</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+m2=&lt;&lt;access&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+</diagram>
