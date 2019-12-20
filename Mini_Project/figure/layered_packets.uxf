@@ -48,8 +48,8 @@ halign=left</panel_attributes>
     <panel_attributes>Video Processor
 --
 Controller
-Edge Detector
-Feature Detector
+Edge Detection
+Corner Detection
 Passthrough
 halign=left</panel_attributes>
     <additional_attributes/>
@@ -73,7 +73,7 @@ halign=left</panel_attributes>
       <w>130</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>Edge Detector
+    <panel_attributes>Edge Detection
 --
 RGB to Gray
 Differentiate
@@ -89,7 +89,7 @@ halign=left</panel_attributes>
       <w>280</w>
       <h>120</h>
     </coordinates>
-    <panel_attributes>Feature Detector
+    <panel_attributes>Corner Detection
 --
 RGB to Gray
 Snippet
@@ -238,6 +238,7 @@ halign=left</panel_attributes>
     <panel_attributes>Differentiate
 --
 Hadamard Product
+Sum
 halign=left</panel_attributes>
     <additional_attributes/>
   </element>
