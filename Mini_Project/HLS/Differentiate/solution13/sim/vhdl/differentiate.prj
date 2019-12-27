@@ -1,0 +1,9 @@
+vhdl xil_defaultlib "AESL_sim_pkg.vhd"
+vhdl xil_defaultlib "AESL_automem_res_V.vhd"
+vhdl xil_defaultlib "AESL_axi_slave_diff_io.vhd"
+vhdl xil_defaultlib "differentiate.autotb.vhd"
+vhdl xil_defaultlib "differentiate.vhd"
+vhdl xil_defaultlib "differentiate_diff_io_s_axi.vhd"
+vhdl xil_defaultlib "differentiate_maccud.vhd"
+vhdl xil_defaultlib "differentiate_mulbkb.vhd"
+
