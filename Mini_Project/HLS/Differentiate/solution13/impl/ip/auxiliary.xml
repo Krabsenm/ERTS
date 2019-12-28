@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="differentiate" xd:componentRef="differentiate" xd:initiationInterval="26166" xd:clockPeriod="8.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_diff_io" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="img[][]" xd:originalName="img" xd:direction="in" xd:interfaceRef="s_axi_diff_io" xd:busTypeRef="axilite" xd:offset="0x1000" xd:arraySize="3072" xd:dataWidth="8"/>
+  <xd:arg xd:name="window[][]" xd:originalName="window" xd:direction="in" xd:interfaceRef="s_axi_diff_io" xd:busTypeRef="axilite" xd:offset="0x2000" xd:arraySize="9" xd:dataWidth="3"/>
+  <xd:arg xd:name="res_V_d0" xd:originalName="res_V_d0" xd:direction="out" xd:interfaceRef="res_V_d0" xd:busTypeRef="ap_memory" xd:arraySize="2852" xd:dataWidth="15"/>
+  <xd:latencyEstimates xd:best-case="26165" xd:worst-case="26165" xd:average-case="26165"/>
+  <xd:resourceEstimates xd:LUT="1436" xd:FF="1853" xd:BRAM="4" xd:DSP="2"/>
+</xd:acceleratorMap>

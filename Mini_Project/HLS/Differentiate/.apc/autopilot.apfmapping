@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="differentiate.cpp" path="C:\Users\jonas\source\repos\ERTS\Mini_Project\HLS\differentiate.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="differentiate_test.cpp" path="C:\Users\jonas\source\repos\ERTS\Mini_Project\HLS\differentiate_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

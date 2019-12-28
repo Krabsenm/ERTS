@@ -1,0 +1,13 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="differentiate" label="Col" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="differentiate" label="ImgCol" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="II" value="10"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+
