@@ -1,13 +1,21 @@
 #pragma once
-#include "Command.h"
+#include "global.h"
 
+class Controller;
 class State
 {
 public:
-	State(){}
+	State(state id) : _state(id){}
 	virtual ~State(){}
 
-	virtual void handle(Command*) = 0; 
-	
+	virtual void handle(Controller*, events evt) = 0;
+	virtual void entry(Controller* _pCtrl) = 0;
+	state getStateId()
+	{
+		return _state;
+	}
+
+protected:
+ 	const state _state; 
 };
 

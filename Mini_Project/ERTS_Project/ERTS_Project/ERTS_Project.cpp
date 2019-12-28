@@ -1,20 +1,60 @@
-// ERTS_Project.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include "Controller.h"
+#include "Command.h"
+#include "Initialized.h"
+#include "Edge.h"
+#include "Pass.h"
+#include "Feature.h"
+#include "Stop.h"
+#include "Restart.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	std::cout << "Trigger Events as: " << std::endl;
+	std::cout << "1:  initialized" << std::endl;
+	std::cout << "2:  edge" << std::endl;
+	std::cout << "3:  pass" << std::endl;
+	std::cout << "4:  corner" << std::endl;
+	std::cout << "5:  stop" << std::endl;
+	std::cout << "6:  restart" << std::endl;
+	
+	Controller system;
+	Command* pCmd = nullptr;
+	while (system.isRunning())
+	{
+		char keypress;
+		std::cin >> keypress;
+		switch (keypress)
+		{
+		case '1':
+			pCmd = new Initialized;
+			break;
+
+		case '2':
+			pCmd = new Edge;
+			break;
+
+		case '3':
+			pCmd = new Pass;
+			break;
+
+		case '4':
+			pCmd = new Feature;
+			break;
+
+		case '5':
+			pCmd = new Stop;
+			break;
+
+		case '6':
+			pCmd = new Restart;
+			break;
+
+		default:
+			break;
+		}
+		if (pCmd != nullptr)
+			system.handleCommand(pCmd);
+	}
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

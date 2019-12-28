@@ -1,17 +1,18 @@
 #pragma once
 #include "Running.h"
 
-class EdgeDetection :
+class CornerDetection :
 	public Running
 {
 public:
-	static EdgeDetection* Instance();
+	static CornerDetection* Instance();
 	void handle(Controller*, events) override;
 	void entry(Controller* _pCtrl) override;
+
 protected:
-	EdgeDetection();
+	CornerDetection();
 
 private:
-	static EdgeDetection* _instance;
+	static CornerDetection* _instance;
 
 };

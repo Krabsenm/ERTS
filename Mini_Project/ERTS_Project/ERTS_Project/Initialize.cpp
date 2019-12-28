@@ -1,4 +1,8 @@
 #include "Initialize.h"
+#include "Passthrough.h"
+#include "Controller.h"
+#include <iostream>
+#include "Initialized.h"
 
 Initialize* Initialize::_instance = 0;
 
@@ -11,11 +15,23 @@ Initialize* Initialize::Instance()
 }
 
 
-void Initialize::handle()
+void Initialize::handle(Controller* _pCtrl, events evt)
 {
+
+	//if (_pCtrl->getVideoProcesor() == nullptr)
+	//	entry(_pCtrl); 
 	
 }
 
-void Initialize::perform_initialization()
+void Initialize::entry(Controller* _pCtrl)
+{
+	VideoProcessor* temp = _pCtrl->getVideoProcesor();
+	temp = new VideoProcessor(_pCtrl);
+	std::cout << "initialize..." << std::endl;
+	_pCtrl->ChangeState(Passthrough::Instance());
+}
+
+Initialize::Initialize() : State(initialize)
 {
 }
+

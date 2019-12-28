@@ -152,24 +152,41 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="CornerDetection.cpp" />
+    <ClCompile Include="CornerProcessor.cpp" />
     <ClCompile Include="EdgeDetection.cpp" />
+    <ClCompile Include="EdgeProcessor.cpp" />
     <ClCompile Include="ERTS_Project.cpp" />
-    <ClCompile Include="FeatureDetection.cpp" />
     <ClCompile Include="Initialize.cpp" />
     <ClCompile Include="Passthrough.cpp" />
-    <ClCompile Include="Running.cpp" />
+    <ClCompile Include="PassthroughProcessor.cpp" />
     <ClCompile Include="Stopped.cpp" />
+    <ClCompile Include="VideoProcessor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Command.h" />
     <ClInclude Include="Controller.h" />
+    <ClInclude Include="CornerDetection.h" />
+    <ClInclude Include="CornerProcessor.h" />
+    <ClInclude Include="Edge.h" />
     <ClInclude Include="EdgeDetection.h" />
-    <ClInclude Include="FeatureDetection.h" />
+    <ClInclude Include="EdgeProcessor.h" />
+    <ClInclude Include="Feature.h" />
+    <ClInclude Include="global.h" />
     <ClInclude Include="Initialize.h" />
+    <ClInclude Include="Initialized.h" />
+    <ClInclude Include="Pass.h" />
     <ClInclude Include="Passthrough.h" />
+    <ClInclude Include="PassthroughProcessor.h" />
+    <ClInclude Include="Restart.h" />
     <ClInclude Include="Running.h" />
     <ClInclude Include="State.h" />
+    <ClInclude Include="Stop.h" />
     <ClInclude Include="Stopped.h" />
+    <ClInclude Include="VideoProcessor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
