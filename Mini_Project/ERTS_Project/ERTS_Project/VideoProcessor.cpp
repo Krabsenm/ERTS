@@ -4,9 +4,9 @@
 #include <iostream>
 
 
-VideoProcessor::VideoProcessor(Controller* the_ctrl) : _ctrl(the_ctrl), _tHandle(std::thread(&VideoProcessor::process, this))
-{
 
+VideoProcessor::VideoProcessor(Controller* the_ctrl, Processor* processor) : _ctrl(the_ctrl), _tHandle(std::thread(&VideoProcessor::process, this)), _processor(processor)
+{
 }
 
 VideoProcessor::~VideoProcessor()
@@ -14,6 +14,16 @@ VideoProcessor::~VideoProcessor()
 	_tHandle.join();
 	std::cout << "I joined!" << std::endl;
 }
+
+void VideoProcessor::setProcessor(Processor* pro)
+{
+	//std::lock_guard<std::mutex> lock(_processorLock);
+	if (_processor != nullptr)
+		delete _processor;
+	_processor = pro;
+	
+}
+
 
 void VideoProcessor::process()
 {
@@ -26,19 +36,13 @@ void VideoProcessor::process()
 		
 		switch (current_state)
 		{
-		case passthrough:
-			std::cout << "pass...passs...passs.." << std::endl; 
-			continue;
-		case edgedetection:
-			std::cout << "egdeee...edge...edgeee.." << std::endl;
-			continue;
-		case cornerdetection:
-			std::cout << "corner...cornerr...cornerrr.." << std::endl;
-			continue;
 		case stopped:
 			std::cout << "stopped, stream ended" << std::endl;
 			break;
 		default:
+			_processorLock.lock();
+			_processor->process();
+			_processorLock.unlock();
 			continue;
 		}
 

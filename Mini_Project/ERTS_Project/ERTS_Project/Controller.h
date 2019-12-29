@@ -14,7 +14,8 @@ public:
  
 	State* getStateHandle();
 	state getState(); 
-	VideoProcessor* getVideoProcesor(); 
+	VideoProcessor* getVideoProcesor();
+	void setVideoProcesor(VideoProcessor* vp);
 	void ChangeState(State*);
 
 	

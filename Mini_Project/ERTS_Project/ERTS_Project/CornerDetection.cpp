@@ -4,6 +4,7 @@
 #include "Passthrough.h"
 #include "Controller.h"
 #include "Stopped.h"
+#include "CornerProcessor.h"
 
 CornerDetection* CornerDetection::_instance = 0;
 
@@ -36,6 +37,7 @@ void CornerDetection::handle(Controller* _pCtrl, events evt)
 
 void CornerDetection::entry(Controller* _pCtrl)
 {
+	_pCtrl->getVideoProcesor()->setProcessor(new CornerProcessor());
 	std::cout << "perform corner detection" << std::endl; 
 }
 

@@ -1,5 +1,10 @@
 #pragma once
-class PassthroughProcessor
-{
-};
+#include "Processor.h"
 
+class PassthroughProcessor : public Processor 
+{
+public:
+	PassthroughProcessor(){}
+	~PassthroughProcessor() {}
+	void process() override;
+};

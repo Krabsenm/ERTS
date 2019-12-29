@@ -160,11 +160,13 @@
     <ClCompile Include="Initialize.cpp" />
     <ClCompile Include="Passthrough.cpp" />
     <ClCompile Include="PassthroughProcessor.cpp" />
+    <ClCompile Include="Processor.cpp" />
     <ClCompile Include="Stopped.cpp" />
     <ClCompile Include="VideoProcessor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Command.h" />
+    <ClInclude Include="concrete_state.h" />
     <ClInclude Include="Controller.h" />
     <ClInclude Include="CornerDetection.h" />
     <ClInclude Include="CornerProcessor.h" />
@@ -178,6 +180,7 @@
     <ClInclude Include="Pass.h" />
     <ClInclude Include="Passthrough.h" />
     <ClInclude Include="PassthroughProcessor.h" />
+    <ClInclude Include="Processor.h" />
     <ClInclude Include="Restart.h" />
     <ClInclude Include="Running.h" />
     <ClInclude Include="State.h" />

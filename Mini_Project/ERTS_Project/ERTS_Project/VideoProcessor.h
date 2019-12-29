@@ -1,24 +1,23 @@
 #pragma once
 #include "Command.h"
 #include <thread>
-#include "CornerProcessor.h"
-#include "EdgeProcessor.h"
-#include "PassthroughProcessor.h"
+#include "Processor.h"
+#include <mutex>
 
 class VideoProcessor
 {
 public:
-	VideoProcessor(Controller* the_ctrl);
+	VideoProcessor(Controller* the_ctrl, Processor*);
 	~VideoProcessor();
 
+	void setProcessor(Processor*);
 	void process();
 	Controller* _ctrl;
 	std::thread _tHandle;
 
 
 private:
-	CornerProcessor _cProcess;
-	EdgeProcessor _eProcess;
-	PassthroughProcessor _pProcess;
-};
+	Processor* _processor = nullptr;
+	std::mutex _processorLock;
+};	
 

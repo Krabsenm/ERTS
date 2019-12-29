@@ -4,6 +4,7 @@
 #include "Controller.h"
 #include <iostream>
 #include "Stopped.h"
+#include "PassthroughProcessor.h"
 
 Passthrough* Passthrough::_instance = 0;
 
@@ -36,6 +37,7 @@ void Passthrough::handle(Controller* _pCtrl, events evt)
 
 void Passthrough::entry(Controller* _pCtrl)
 {
+	_pCtrl->getVideoProcesor()->setProcessor(new PassthroughProcessor());
 	std::cout << "video pass through " << std::endl; 
 }
 

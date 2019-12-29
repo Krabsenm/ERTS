@@ -4,6 +4,7 @@
 #include "Controller.h"
 #include <iostream>
 #include "Stopped.h"
+#include "EdgeProcessor.h"
 
 EdgeDetection* EdgeDetection::_instance = 0;
 
@@ -35,6 +36,7 @@ void EdgeDetection::handle(Controller* _pCtrl, events evt)
 
 void EdgeDetection::entry(Controller* _pCtrl)
 {
+	_pCtrl->getVideoProcesor()->setProcessor(new EdgeProcessor()); 
 	std::cout << "perform edge detection... " << std::endl; 
 }
 

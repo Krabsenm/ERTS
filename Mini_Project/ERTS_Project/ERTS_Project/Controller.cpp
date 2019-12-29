@@ -52,6 +52,11 @@ VideoProcessor* Controller::getVideoProcesor()
 	return _pVP; 
 }
 
+void Controller::setVideoProcesor(VideoProcessor* vp)
+{
+	_pVP = vp;
+}
+
 bool Controller::isRunning()
 {
 	return running; 

@@ -3,6 +3,7 @@
 #include "Controller.h"
 #include <iostream>
 #include "Initialized.h"
+#include "PassthroughProcessor.h"
 
 Initialize* Initialize::_instance = 0;
 
@@ -25,8 +26,7 @@ void Initialize::handle(Controller* _pCtrl, events evt)
 
 void Initialize::entry(Controller* _pCtrl)
 {
-	VideoProcessor* temp = _pCtrl->getVideoProcesor();
-	temp = new VideoProcessor(_pCtrl);
+	_pCtrl->setVideoProcesor(new VideoProcessor(_pCtrl, new PassthroughProcessor()));
 	std::cout << "initialize..." << std::endl;
 	_pCtrl->ChangeState(Passthrough::Instance());
 }
